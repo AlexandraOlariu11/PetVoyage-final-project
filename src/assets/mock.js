@@ -1,83 +1,559 @@
 const response = {
-    query: "New York", // city input from request
+    query: "Bucuresti", // city input from request
     message: "success", // 'Error, no such city'
     places: {
       restaurants: [
         {
-          name: "Pet-Friendly Restaurant 1",
-          short_description: "A cozy restaurant with a pet-friendly patio.",
+          name: "Culinary Haven",
+          short_description: "Un restaurant confortabil cu o terasă prietenoasă pentru animale de companie.",
           long_description:
-            "Pet-Friendly Restaurant 1 is known for its delicious food and welcoming atmosphere for pets.",
-          images: ["img1.png", "img2.png"],
-          cover: "imgCover.png",
+            "Culinary Haven este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
+          images: ["restaurant1.jpg"],
+          cover: "restaurant1.jpg",
         },
         {
-          name: "Pet-Friendly Restaurant 2",
-          short_description: "An upscale dining experience where pets are welcome.",
+          name: "Spice Fusion",
+          short_description: "O experiență rafinată de dining în care animalele de companie sunt binevenite.",
           long_description:
-            "Pet-Friendly Restaurant 2 offers a fine selection of dishes and a pet-friendly dining area.",
-          images: ["img3.png", "img4.png"],
-          cover: "imgCover.png",
+            "Spice Fusion oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
+            images: ["restaurant2.jpg"],
+            cover: "restaurant2.jpg",
         },
-        // More restaurant objects can be included here...
+        {
+          name: "Cafea cu Poveste",
+          short_description: "Gastronomie excelentă și atmosferă primitoare, cu spațiu dedicat și pentru prietenii cu patru picioare",
+          long_description:
+            "Cafea cu Poveste este un rafinat sanctuar culinar, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
+            images: ["restaurant3.jpg"],
+            cover: "restaurant3.jpg",
+        },
+        {
+          name: "Urban Bites",
+          short_description: "Călătorie culinară îmbinată cu relaxare în terasă, deschisă prietenilor blănoși.",
+          long_description:
+            "Urban Bites oferă un loc desăvârșit pentru a savura bucate alese și a petrece momente plăcute pe terasă, împreună cu prietenii necuvântători.",
+            images: ["restaurant4.jpg"],
+            cover: "restaurant4.jpg",
+        },
       ],
       parks: [
         {
-          name: "City Park",
-          short_description: "A spacious park with walking trails for you and your pets.",
+          name: "Paws and Playgrounds",
+          short_description: "Un parc spațios cu trasee pentru plimbare atât pentru tine, cât și pentru animalele tale de companie.",
           long_description:
-            "City Park is a beautiful recreational area where you can enjoy nature with your furry friends.",
-          images: ["img5.png", "img6.png"],
-          cover: "imgCover.png",
+            "Paws and Playgrounds este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
+          images: ["parc1.jpg"],
+          cover: "parc1.jpg",
         },
         {
-          name: "Doggy Meadows",
-          short_description: "A park designed specifically for dogs to play and socialize.",
+          name: "Pawfect Haven Park",
+          short_description: "Un parc conceput special pentru ca câinii să se joace și să socializeze.",
           long_description:
-            "Doggy Meadows is an off-leash dog park with plenty of space for your pets to run and play.",
-          images: ["img7.png", "img8.png"],
-          cover: "imgCover.png",
-        },
-        // More park objects can be included here...
-      ],
-      shops: [
-        {
-          name: "Pet Boutique",
-          short_description: "A boutique offering stylish accessories for your pets.",
-          long_description:
-            "Pet Boutique provides a wide range of fashionable accessories and toys for your furry companions.",
-          images: ["img9.png", "img10.png"],
-          cover: "imgCover.png",
+            "Pawfect Haven Park este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
+            images: ["parc2.jpg"],
+            cover: "parc2.jpg",
         },
         {
-          name: "Pet Superstore",
-          short_description: "A one-stop-shop for all your pet's needs.",
+          name: "Whisker Wonderland",
+          short_description: "Oază verde pentru joacă și relaxare, prietenoasă cu animalele de companie",
           long_description:
-            "Pet Superstore offers a vast selection of pet supplies, from food to grooming essentials.",
-          images: ["img11.png", "img12.png"],
-          cover: "imgCover.png",
+            "Whisker Wonderland este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
+            images: ["parc3.jpg"],
+            cover: "parc3.jpg",
         },
-        // More shop objects can be included here...
       ],
       hotels: [
         {
-          name: "Pet-Friendly Inn",
-          short_description: "A charming inn that welcomes guests with their pets.",
+          name: "Buddy's Bed & Biscuit",
+          short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
           long_description:
-            "Pet-Friendly Inn offers comfortable rooms and pet-friendly accommodations for your stay.",
-          images: ["img13.png", "img14.png"],
-          cover: "imgCover.png",
+            "Buddy's Bed & Biscuit oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
+          images: ["hotel1.jpg"],
+          cover: "hotel1.jpg",
         },
         {
-          name: "Paw's Paradise Hotel",
-          short_description: "A luxury hotel that pampers both you and your pets.",
+          name: "PawPrint Retreat Bucharest",
+          short_description: "Un hotel de lux care răsfață atât pe tine, cât și pe animalele tale de companie.",
           long_description:
-            "Paw's Paradise Hotel provides top-notch amenities and services for you and your beloved pets.",
-          images: ["img15.png", "img16.png"],
-          cover: "imgCover.png",
+            "PawPrint Retreat Bucharest oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
+            images: ["hotel2.jpg"],
+            cover: "hotel2.jpg",
         },
-        // More hotel objects can be included here...
+        {
+          name: "Pet Paradise Lodge",
+          short_description: "Refugiu prietenos cu servicii premium, bunăstare și distracție pentru tine si animalele tale.",
+          long_description:
+            "Pet Paradise Lodge ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
+            images: ["hotel3.jpg"],
+            cover: "hotel3.jpg",
+        },
       ],
     },
   };
-  
+
+
+  const response = {
+    query: "Iasi", // city input from request
+    message: "success", // 'Error, no such city'
+    places: {
+      restaurants: [
+        {
+          name: "Authentic Flavors",
+          short_description: "Un restaurant confortabil cu o terasă prietenoasă pentru animale de companie.",
+          long_description:
+            "Authentic Flavors este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
+            images: ["restaurant5.jpg"],
+            cover: "restaurant5.jpg",
+        },
+        {
+          name: "Culinary Bliss",
+          short_description: "O experiență rafinată de dining în care animalele de companie sunt binevenite.",
+          long_description:
+            "Culinary Bliss oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
+            images: ["restaurant6.jpg"],
+            cover: "restaurant6.jpg",
+        },
+        {
+          name: "Cozy Cup Cafe",
+          short_description: "Gastronomie excelentă și atmosferă primitoare, cu spațiu dedicat și pentru prietenii cu patru picioare",
+          long_description:
+            "Cozy Cup Cafe este o cafenea de specialitate, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
+            images: ["restaurant7.jpg"],
+            cover: "restaurant7.jpg",
+        },
+      ],
+      parks: [
+        {
+          name: "Pawsome Park",
+          short_description: "Un parc spațios cu trasee pentru plimbare atât pentru tine, cât și pentru animalele tale de companie.",
+          long_description:
+            "Pawsome Park este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
+            images: ["parc4.jpg"],
+            cover: "parc4.jpg",
+        },
+        {
+          name: "Bark 'n Play Haven",
+          short_description: "Un parc conceput special pentru ca câinii să se joace și să socializeze.",
+          long_description:
+            "Bark 'n Play Haven este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
+            images: ["parc5.jpg"],
+            cover: "parc5.jpg",
+        },
+        {
+          name: "Waggin' Trails Park",
+          short_description: "Oază verde pentru joacă și relaxare, prietenoasă cu animalele de companie",
+          long_description:
+            "Waggin' Trails Park este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
+            images: ["parc6.jpg"],
+            cover: "parc6.jpg",
+        },
+        {
+          name: "Canine Cove",
+          short_description: "Spațiu primitor unde animalele și stăpânii se joacă și se relaxează împreună armonios.",
+          long_description:
+            "Canine Cove este o oază prețuită pentru animale de companie și stăpâni, pentru joacă, legături și explorare bucurătoare.",
+            images: ["parc7.jpg"],
+            cover: "parc7.jpg",
+        },
+      ],
+      hotels: [
+        {
+          name: "Paws & People Retreat",
+          short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
+          long_description:
+            "Paws & People Retreat oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
+            images: ["hotel4.jpg"],
+            cover: "hotel4.jpg",
+        },
+        {
+          name: "Companion Comfort Inn Iasi",
+          short_description: "Un hotel de lux care răsfață atât pe tine, cât și pe animalele tale de companie.",
+          long_description:
+            "Companion Comfort Inn Iasi oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
+            images: ["hotel4.jpg"],
+            cover: "hotel4.jpg",
+        },
+        {
+          name: "PetVenture Lodge",
+          short_description: "Refugiu prietenos cu servicii premium, bunăstare și distracție pentru tine si animalele tale.",
+          long_description:
+            "PetVenture Lodge ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
+            images: ["hotel4.jpg"],
+            cover: "hotel4.jpg",
+        },
+      ],
+    },
+  };
+
+  const response = {
+    query: "Sibiu", // city input from request
+    message: "success", // 'Error, no such city'
+    places: {
+      restaurants: [
+        {
+          name: "Aroma Oasis",
+          short_description: "Un restaurant confortabil cu o terasă prietenoasă pentru animale de companie.",
+          long_description:
+            "Aroma Oasis este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
+            images: ["restaurant8.jpg"],
+            cover: "restaurant8.jpg",
+        },
+        {
+          name: "Joyful Dining",
+          short_description: "O experiență rafinată de dining în care animalele de companie sunt binevenite.",
+          long_description:
+            "Joyful Dining oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
+            images: ["restaurant9.jpg"],
+            cover: "restaurant9.jpg",
+        },
+        {
+          name: "Bean Dream Cafe",
+          short_description: "Cafea excelentă și atmosferă primitoare, cu spațiu dedicat și pentru prietenii cu patru picioare",
+          long_description:
+            "Bean Dream Cafe este o cafenea de specialitate, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
+            images: ["restaurant10.jpg"],
+            cover: "restaurant10.jpg",
+        },
+      ],
+      parks: [
+        {
+          name: "Pet Pal Pavilion",
+          short_description: "Un parc spațios cu trasee pentru plimbare atât pentru tine, cât și pentru animalele tale de companie.",
+          long_description:
+            "Pet Pal Pavilion este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
+            images: ["parc8.jpg"],
+            cover: "parc8.jpg",
+        },
+        {
+          name: "Purrfect Paws Park",
+          short_description: "Un parc conceput special pentru ca câinii să se joace și să socializeze.",
+          long_description:
+            "Purrfect Paws Park este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
+            images: ["parc9.jpg"],
+            cover: "parc9.jpg",
+        },
+        {
+          name: "Fido's Freedom Fields",
+          short_description: "Oază verde pentru joacă și relaxare, prietenoasă cu animalele de companie",
+          long_description:
+            "Fido's Freedom Fields este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
+            images: ["parc10.jpg"],
+            cover: "parc10.jpg",
+        },
+      ],
+      hotels: [
+        {
+          name: "PetStay Inn",
+          short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
+          long_description:
+            "PetStay Inn oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
+            images: ["hotel5.jpg"],
+            cover: "hotel5.jpg",
+        },
+        {
+          name: "PetPalace Hospitality Sibiu",
+          short_description: "Un hotel de lux care răsfață atât pe tine, cât și pe animalele tale de companie.",
+          long_description:
+            "PetPalace Hospitality Sibiu oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
+            images: ["hotel5.jpg"],
+            cover: "hotel5.jpg",
+        },
+        {
+          name: "TailWag Resort",
+          short_description: "Refugiu prietenos cu servicii premium, bunăstare și distracție pentru tine si animalele tale.",
+          long_description:
+            "TailWag Resort ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
+            images: ["hotel6.jpg"],
+            cover: "hotel6.jpg",
+        },
+        {
+          name: "Waggin' Welcome Hotel",
+          short_description: "Refugiu primitor, oferind confort atât pentru oaspeți, cât și pentru animalele lor de companie.",
+          long_description:
+            "Waggin' Welcome Hotel Destinație relaxantă unde oamenii și animalele de companie sunt tratați cu grijă și ospitalitate.",
+            images: ["hotel7.jpg"],
+            cover: "hotel7.jpg",
+        },
+      ],
+    },
+  };
+
+
+  const response = {
+    query: "Brasov", // city input from request
+    message: "success", // 'Error, no such city'
+    places: {
+      restaurants: [
+        {
+          name: "The Savory Spoon Café",
+          short_description: "Un restaurant confortabil cu o terasă prietenoasă pentru animale de companie.",
+          long_description:
+            "The Savory Spoon Café este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
+            images: ["restaurant1.jpg"],
+            cover: "restaurant1.jpg",
+        },
+        {
+          name: "Urban Bites Eatery",
+          short_description: "O experiență rafinată de dining în care animalele de companie sunt binevenite.",
+          long_description:
+            "Urban Bites Eatery oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
+            images: ["restaurant6.jpg"],
+            cover: "restaurant6.jpg",
+        },
+        {
+          name: "Riverside Café & Lounge",
+          short_description: "Gastronomie excelentă și atmosferă primitoare, cu spațiu dedicat și pentru prietenii cu patru picioare",
+          long_description:
+            "Riverside Café & Lounge este un rafinat sanctuar culinar, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
+            images: ["restaurant9.jpg"],
+            cover: "restaurant9.jpg",
+        },
+        {
+          name: "Bella Caffeina Bistro",
+          short_description: "Călătorie culinară îmbinată cu relaxare în terasă, deschisă prietenilor blănoși.",
+          long_description:
+            "Bella Caffeina Bistro oferă un loc desăvârșit pentru a savura bucate alese și a petrece momente plăcute pe terasă, împreună cu prietenii necuvântători.",
+            images: ["restaurant4.jpg"],
+            cover: "restaurant4.jpg",
+        },
+      ],
+      parks: [
+        {
+          name: "Pawsome Park Haven",
+          short_description: "Un parc spațios cu trasee pentru plimbare atât pentru tine, cât și pentru animalele tale de companie.",
+          long_description:
+            "Pawsome Park Haven este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
+            images: ["parc2.jpg"],
+            cover: "parc2.jpg",
+        },
+        {
+          name: "Wag n' Walk Meadows",
+          short_description: "Un parc conceput special pentru ca câinii să se joace și să socializeze.",
+          long_description:
+            "Wag n' Walk Meadows este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
+            images: ["parc5.jpg"],
+            cover: "parc5.jpg",
+        },
+        {
+          name: "Canine Companion Cove",
+          short_description: "Oază verde pentru joacă și relaxare, prietenoasă cu animalele de companie",
+          long_description:
+            "Canine Companion Cove este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
+            images: ["parc9.jpg"],
+            cover: "parc9.jpg",
+        },
+      ],
+      hotels: [
+        {
+          name: "PetVenture Suites",
+          short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
+          long_description:
+            "PetVenture Suites oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
+            images: ["hotel8.jpg"],
+            cover: "hotel8.jpg",
+        },
+        {
+          name: "Paws & People Hotel",
+          short_description: "Un hotel de lux care răsfață atât pe tine, cât și pe animalele tale de companie.",
+          long_description:
+            "Paws & People Hotel oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
+            images: ["hotel9.jpg"],
+            cover: "hotel9.jpg",
+        },
+        {
+          name: "Furry Companions Inn",
+          short_description: "Refugiu prietenos cu servicii premium, bunăstare și distracție pentru tine si animalele tale.",
+          long_description:
+            "Furry Companions Inn ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
+            images: ["hotel10.jpg"],
+            cover: "hotel10.jpg",
+        },
+      ],
+    },
+  };
+
+  const response = {
+    query: "Cluj Napoca", // city input from request
+    message: "success", // 'Error, no such city'
+    places: {
+      restaurants: [
+        {
+          name: "The Hungry Palette Diner",
+          short_description: "Un restaurant confortabil cu o terasă prietenoasă pentru animale de companie.",
+          long_description:
+            "The Hungry Palette Diner este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
+            images: ["restaurant2.jpg"],
+            cover: "restaurant2.jpg",
+        },
+        {
+          name: "SpiceFusion Kitchen",
+          short_description: "O experiență rafinată de dining în care animalele de companie sunt binevenite.",
+          long_description:
+            "SpiceFusion Kitchen oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
+            images: ["restaurant8.jpg"],
+            cover: "restaurant8.jpg",
+        },
+        {
+          name: "Sweet Serenity Bakery & Café",
+          short_description: "Gastronomie excelentă și atmosferă primitoare, cu spațiu dedicat și pentru prietenii cu patru picioare",
+          long_description:
+            "Sweet Serenity Bakery & Café este o cafenea de specialitate, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
+            images: ["restaurant5.jpg"],
+            cover: "restaurant5.jpg",
+        },
+      ],
+      parks: [
+        {
+          name: "Fido's Funland Retreat",
+          short_description: "Un parc spațios cu trasee pentru plimbare atât pentru tine, cât și pentru animalele tale de companie.",
+          long_description:
+            "Fido's Funland Retreat este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
+            images: ["parc3.jpg"],
+            cover: "parc3.jpg",
+        },
+        {
+          name: "Bark & Bond Trail",
+          short_description: "Un parc conceput special pentru ca câinii să se joace și să socializeze.",
+          long_description:
+            "Bark & Bond Trail este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
+            images: ["parc6.jpg"],
+            cover: "parc6.jpg",
+        },
+        {
+          name: "PetPal Playgrounds",
+          short_description: "Oază verde pentru joacă și relaxare, prietenoasă cu animalele de companie",
+          long_description:
+            "PetPal Playgrounds este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
+            images: ["parc8.jpg"],
+            cover: "parc8.jpg",
+        },
+        {
+          name: "TailWag Trails Park",
+          short_description: "Spațiu primitor unde animalele și stăpânii se joacă și se relaxează împreună armonios.",
+          long_description:
+            "TailWag Trails Park este o oază prețuită pentru animale de companie și stăpâni, pentru joacă, legături și explorare bucurătoare.",
+            images: ["parc7.jpg"],
+            cover: "parc7.jpg",
+        },
+      ],
+      hotels: [
+        {
+          name: "Woof & Wander Lodge",
+          short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
+          long_description:
+            "Woof & Wander Lodge oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
+            images: ["hotel2.jpg"],
+            cover: "hotel2.jpg",
+        },
+        {
+          name: "PetPal Paradise Hotel",
+          short_description: "Un hotel de lux care răsfață atât pe tine, cât și pe animalele tale de companie.",
+          long_description:
+            "PetPal Paradise Hotel oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
+            images: ["hotel5.jpg"],
+            cover: "hotel5.jpg",
+        },
+        {
+          name: "Cozy Canine Haven",
+          short_description: "Refugiu prietenos cu servicii premium, bunăstare și distracție pentru tine si animalele tale.",
+          long_description:
+            "Cozy Canine Haven ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
+            images: ["hotel9.jpg"],
+            cover: "hotel9.jpg",
+        },
+      ],
+    },
+  };
+
+  const response = {
+    query: "Timisoara", // city input from request
+    message: "success", // 'Error, no such city'
+    places: {
+      restaurants: [
+        {
+          name: "The Coffee & Convo Corner",
+          short_description: "Un restaurant confortabil cu o terasă prietenoasă pentru animale de companie.",
+          long_description:
+            "The Coffee & Convo Corner este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
+            images: ["restaurant3.jpg"],
+            cover: "restaurant3.jpg",
+        },
+        {
+          name: "Urban Flavors Bistro",
+          short_description: "O experiență rafinată de dining în care animalele de companie sunt binevenite.",
+          long_description:
+            "Urban Flavors Bistro oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
+            images: ["restaurant6.jpg"],
+            cover: "restaurant6.jpg",
+        },
+        {
+          name: "The Conversational Coffee House",
+          short_description: "Cafea excelentă și atmosferă primitoare, cu spațiu dedicat și pentru prietenii cu patru picioare",
+          long_description:
+            "The Conversational Coffee House este o cafenea de specialitate, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
+            images: ["restaurant10.jpg"],
+            cover: "restaurant10.jpg",
+        },
+      ],
+      parks: [
+        {
+          name: "Pawfect Play Park",
+          short_description: "Un parc spațios cu trasee pentru plimbare atât pentru tine, cât și pentru animalele tale de companie.",
+          long_description:
+            "Pawfect Play Park este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
+            images: ["parc1.jpg"],
+            cover: "parc1.jpg",
+        },
+        {
+          name: "Fur-Friendly Oasis",
+          short_description: "Un parc conceput special pentru ca câinii să se joace și să socializeze.",
+          long_description:
+            "Fur-Friendly Oasis este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
+            images: ["parc4.jpg"],
+            cover: "parc4.jpg",
+        },
+        {
+          name: "PetPals Park",
+          short_description: "Oază verde pentru joacă și relaxare, prietenoasă cu animalele de companie",
+          long_description:
+            "PetPals Park este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
+            images: ["parc10.jpg"],
+            cover: "parc10.jpg",
+        },
+      ],
+      hotels: [
+        {
+          name: "Cozy Pet Palaces Hotel",
+          short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
+          long_description:
+            "Cozy Pet Palaces Hotel oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
+            images: ["hotel3.jpg"],
+            cover: "hotel3.jpg",
+        },
+        {
+          name: "Pet-Friendly Haven Hotel",
+          short_description: "Un hotel de lux care răsfață atât pe tine, cât și pe animalele tale de companie.",
+          long_description:
+            "Pet-Friendly Haven Hotel oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
+            images: ["hotel6.jpg"],
+            cover: "hotel6.jpg",
+        },
+        {
+          name: "PetStay Getaway Inn",
+          short_description: "Refugiu prietenos cu servicii premium, bunăstare și distracție pentru tine si animalele tale.",
+          long_description:
+            "PetStay Getaway Inn ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
+            images: ["hotel10.jpg"],
+            cover: "hotel10.jpg",
+        },
+        {
+          name: "Four-Legged Luxury Lodge",
+          short_description: "Refugiu primitor, oferind confort atât pentru oaspeți, cât și pentru animalele lor de companie.",
+          long_description:
+            "Four-Legged Luxury Lodge Destinație relaxantă unde oamenii și animalele de companie sunt tratați cu grijă și ospitalitate.",
+            images: ["hotel1.jpg"],
+            cover: "hotel1.jpg",
+        },
+      ],
+    },
+  };
