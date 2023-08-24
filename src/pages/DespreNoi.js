@@ -4,6 +4,6 @@ import NavbarContainer from  "../containers/NavbarContainer";
 import '../assets/css/NavStyles.css';
 
 
-export default function Contact () {
-    return <h1>Contact</h1>;
+export default function DespreNoi () {
+    return <h1>Despre noi</h1>;
 }
