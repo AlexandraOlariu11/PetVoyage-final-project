@@ -7,7 +7,6 @@ body {
 }
 
 .container {
-    margin: 1rem;
     text-align: center;
 }
 
@@ -22,7 +21,7 @@ body {
 }
 
 .title {
-font-size: 2rem;
+    font-size: 2rem;
 }
 .nav ul {
     padding: 0;
@@ -40,7 +39,26 @@ font-size: 2rem;
     padding: .25rem;
 }
 
-.nav li:hover {
-    background-color: #568baa;
+.nav li {
+    margin:10px;
 }
 
+.nav li:hover {
+    background-color: #568baa;
+    border-radius:10px;
+}
+
+
+.custom-link {
+    padding-left:20px;
+    padding-right:20px;
+  }
+  
+  .custom-link.active {
+    font-weight:bold;
+  }
+  
+  .logo {
+    width:80px;
+    height:80px;
+  }

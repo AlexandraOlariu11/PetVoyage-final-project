@@ -1,0 +1,11 @@
+.booking-container {
+    display:flex;
+    flex-direction: column;
+
+}
+
+.booking-container > .title {
+    font-size:30px;
+    font-weight: bold;
+    padding-top:20px;
+}

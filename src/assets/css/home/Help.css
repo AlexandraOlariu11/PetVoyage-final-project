@@ -1,0 +1,58 @@
+.help-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f4ed;
+    border:1px solid #ddd;
+
+}
+
+.top {
+    padding:30px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.top > .title {
+    font-size:35px;
+    font-weight: bold;
+    color:#ff7f27;
+}
+
+.top > .sub-title {
+    padding-top:10px;
+}
+
+.bottom {
+    flex:1;
+    display: flex;
+}
+
+.bottom > .item {
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    align-items: center;
+}
+
+
+.bottom > .item > .item-icon {
+    margin-top:10px;
+    margin-bottom: 10px;
+    width:60px;
+    height:60px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.bottom > .item > .item-title {
+    font-weight:bold;
+    padding-top:10px;
+}
+
+.bottom > .item > .item-description {
+    padding-top:10px;
+}

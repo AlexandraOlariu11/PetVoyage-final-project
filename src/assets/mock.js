@@ -1,6 +1,6 @@
-const response = {
-    query: "Bucuresti", // city input from request
-    message: "success", // 'Error, no such city'
+export const data = [
+  {
+    city: "Bucuresti",
     places: {
       restaurants: [
         {
@@ -89,105 +89,9 @@ const response = {
         },
       ],
     },
-  };
-
-
-  const response = {
-    query: "Iasi", // city input from request
-    message: "success", // 'Error, no such city'
-    places: {
-      restaurants: [
-        {
-          name: "Authentic Flavors",
-          short_description: "Un restaurant confortabil cu o terasă prietenoasă pentru animale de companie.",
-          long_description:
-            "Authentic Flavors este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
-            images: ["restaurant5.jpg"],
-            cover: "restaurant5.jpg",
-        },
-        {
-          name: "Culinary Bliss",
-          short_description: "O experiență rafinată de dining în care animalele de companie sunt binevenite.",
-          long_description:
-            "Culinary Bliss oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
-            images: ["restaurant6.jpg"],
-            cover: "restaurant6.jpg",
-        },
-        {
-          name: "Cozy Cup Cafe",
-          short_description: "Gastronomie excelentă și atmosferă primitoare, cu spațiu dedicat și pentru prietenii cu patru picioare",
-          long_description:
-            "Cozy Cup Cafe este o cafenea de specialitate, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
-            images: ["restaurant7.jpg"],
-            cover: "restaurant7.jpg",
-        },
-      ],
-      parks: [
-        {
-          name: "Pawsome Park",
-          short_description: "Un parc spațios cu trasee pentru plimbare atât pentru tine, cât și pentru animalele tale de companie.",
-          long_description:
-            "Pawsome Park este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
-            images: ["parc4.jpg"],
-            cover: "parc4.jpg",
-        },
-        {
-          name: "Bark 'n Play Haven",
-          short_description: "Un parc conceput special pentru ca câinii să se joace și să socializeze.",
-          long_description:
-            "Bark 'n Play Haven este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
-            images: ["parc5.jpg"],
-            cover: "parc5.jpg",
-        },
-        {
-          name: "Waggin' Trails Park",
-          short_description: "Oază verde pentru joacă și relaxare, prietenoasă cu animalele de companie",
-          long_description:
-            "Waggin' Trails Park este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
-            images: ["parc6.jpg"],
-            cover: "parc6.jpg",
-        },
-        {
-          name: "Canine Cove",
-          short_description: "Spațiu primitor unde animalele și stăpânii se joacă și se relaxează împreună armonios.",
-          long_description:
-            "Canine Cove este o oază prețuită pentru animale de companie și stăpâni, pentru joacă, legături și explorare bucurătoare.",
-            images: ["parc7.jpg"],
-            cover: "parc7.jpg",
-        },
-      ],
-      hotels: [
-        {
-          name: "Paws & People Retreat",
-          short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
-          long_description:
-            "Paws & People Retreat oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
-            images: ["hotel4.jpg"],
-            cover: "hotel4.jpg",
-        },
-        {
-          name: "Companion Comfort Inn Iasi",
-          short_description: "Un hotel de lux care răsfață atât pe tine, cât și pe animalele tale de companie.",
-          long_description:
-            "Companion Comfort Inn Iasi oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
-            images: ["hotel4.jpg"],
-            cover: "hotel4.jpg",
-        },
-        {
-          name: "PetVenture Lodge",
-          short_description: "Refugiu prietenos cu servicii premium, bunăstare și distracție pentru tine si animalele tale.",
-          long_description:
-            "PetVenture Lodge ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
-            images: ["hotel4.jpg"],
-            cover: "hotel4.jpg",
-        },
-      ],
-    },
-  };
-
-  const response = {
-    query: "Sibiu", // city input from request
-    message: "success", // 'Error, no such city'
+  },
+  {
+    city: "Sibiu",
     places: {
       restaurants: [
         {
@@ -276,12 +180,100 @@ const response = {
         },
       ],
     },
-  };
-
-
-  const response = {
-    query: "Brasov", // city input from request
-    message: "success", // 'Error, no such city'
+  },
+  {
+    city: "Iasi",
+    places: {
+      restaurants: [
+        {
+          name: "Authentic Flavors",
+          short_description: "Un restaurant confortabil cu o terasă prietenoasă pentru animale de companie.",
+          long_description:
+            "Authentic Flavors este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
+            images: ["restaurant5.jpg"],
+            cover: "restaurant5.jpg",
+        },
+        {
+          name: "Culinary Bliss",
+          short_description: "O experiență rafinată de dining în care animalele de companie sunt binevenite.",
+          long_description:
+            "Culinary Bliss oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
+            images: ["restaurant6.jpg"],
+            cover: "restaurant6.jpg",
+        },
+        {
+          name: "Cozy Cup Cafe",
+          short_description: "Gastronomie excelentă și atmosferă primitoare, cu spațiu dedicat și pentru prietenii cu patru picioare",
+          long_description:
+            "Cozy Cup Cafe este o cafenea de specialitate, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
+            images: ["restaurant7.jpg"],
+            cover: "restaurant7.jpg",
+        },
+      ],
+      parks: [
+        {
+          name: "Pawsome Park",
+          short_description: "Un parc spațios cu trasee pentru plimbare atât pentru tine, cât și pentru animalele tale de companie.",
+          long_description:
+            "Pawsome Park este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
+            images: ["parc4.jpg"],
+            cover: "parc4.jpg",
+        },
+        {
+          name: "Bark 'n Play Haven",
+          short_description: "Un parc conceput special pentru ca câinii să se joace și să socializeze.",
+          long_description:
+            "Bark 'n Play Haven este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
+            images: ["parc5.jpg"],
+            cover: "parc5.jpg",
+        },
+        {
+          name: "Waggin' Trails Park",
+          short_description: "Oază verde pentru joacă și relaxare, prietenoasă cu animalele de companie",
+          long_description:
+            "Waggin' Trails Park este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
+            images: ["parc6.jpg"],
+            cover: "parc6.jpg",
+        },
+        {
+          name: "Canine Cove",
+          short_description: "Spațiu primitor unde animalele și stăpânii se joacă și se relaxează împreună armonios.",
+          long_description:
+            "Canine Cove este o oază prețuită pentru animale de companie și stăpâni, pentru joacă, legături și explorare bucurătoare.",
+            images: ["parc7.jpg"],
+            cover: "parc7.jpg",
+        },
+      ],
+      hotels: [
+        {
+          name: "Paws & People Retreat",
+          short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
+          long_description:
+            "Paws & People Retreat oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
+            images: ["hotel4.jpg"],
+            cover: "hotel4.jpg",
+        },
+        {
+          name: "Companion Comfort Inn Iasi",
+          short_description: "Un hotel de lux care răsfață atât pe tine, cât și pe animalele tale de companie.",
+          long_description:
+            "Companion Comfort Inn Iasi oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
+            images: ["hotel4.jpg"],
+            cover: "hotel4.jpg",
+        },
+        {
+          name: "PetVenture Lodge",
+          short_description: "Refugiu prietenos cu servicii premium, bunăstare și distracție pentru tine si animalele tale.",
+          long_description:
+            "PetVenture Lodge ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
+            images: ["hotel4.jpg"],
+            cover: "hotel4.jpg",
+        },
+      ],
+    },
+  },
+  {
+    city: "Brasov", 
     places: {
       restaurants: [
         {
@@ -370,11 +362,9 @@ const response = {
         },
       ],
     },
-  };
-
-  const response = {
-    query: "Cluj Napoca", // city input from request
-    message: "success", // 'Error, no such city'
+  },
+  {
+    city: "Cluj Napoca",
     places: {
       restaurants: [
         {
@@ -463,11 +453,9 @@ const response = {
         },
       ],
     },
-  };
-
-  const response = {
-    query: "Timisoara", // city input from request
-    message: "success", // 'Error, no such city'
+  },
+  {
+    city: "Timisoara", 
     places: {
       restaurants: [
         {
@@ -556,4 +544,5 @@ const response = {
         },
       ],
     },
-  };
+  }
+];

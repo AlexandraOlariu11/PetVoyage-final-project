@@ -1,0 +1,25 @@
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    padding-top:20px;
+    padding-bottom:20px;
+    justify-content: center;
+}
+
+.filter-item {
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+    min-width: 100px;
+    border-bottom:1px solid black;
+}
+
+.filter-item:hover {
+    cursor:pointer;
+    background: #ddd;
+}
+
+.f-selected {
+    color:white;
+    background: black !important;
+}
