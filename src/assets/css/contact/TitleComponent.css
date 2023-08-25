@@ -1,0 +1,9 @@
+.TitleComponentStyle {
+    text-align:center;
+}
+
+h1 {
+     font-family: 'Arial';
+     font-size: 6rem;
+     margin-top: 0.5rem;  
+}

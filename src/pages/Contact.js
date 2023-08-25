@@ -1,6 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from 'react';
+import ContactSection from "../components/ContactSection";
 
-
-export default function Contact () {
-    return <h1>Contact</h1>;
+export default function Contact() {
+    return (
+        <div>
+            <ContactSection/>
+        </div>
+    );
 }
