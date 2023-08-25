@@ -13,7 +13,7 @@ export function Explore() {
         <>
             <div className='explore-container'>
                <div className='title'>
-                    Explore the world with your pet
+               Embark on exciting adventures with your furry companion
                </div>
                <div className='images'>
                     {images.map((url, index) => (

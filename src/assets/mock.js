@@ -6,6 +6,8 @@ export const data = [
         {
           name: "Culinary Haven",
           short_description: "Un restaurant confortabil cu o terasă prietenoasă pentru animale de companie.",
+          adress: "Adress: Bucharest, Romania",
+          phone: 'Phone: 0123242424',
           long_description:
             "Culinary Haven este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
           images: ["restaurant1.jpg"],
@@ -13,6 +15,8 @@ export const data = [
         },
         {
           name: "Spice Fusion",
+          adress: "Adress: Bucharest, Romania",
+          phone: 'Phone: 0123242424',
           short_description: "O experiență rafinată de dining în care animalele de companie sunt binevenite.",
           long_description:
             "Spice Fusion oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
@@ -26,6 +30,8 @@ export const data = [
             "Cafea cu Poveste este un rafinat sanctuar culinar, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
             images: ["restaurant3.jpg"],
             cover: "restaurant3.jpg",
+            adress: "Adress: Bucharest, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Urban Bites",
@@ -34,6 +40,38 @@ export const data = [
             "Urban Bites oferă un loc desăvârșit pentru a savura bucate alese și a petrece momente plăcute pe terasă, împreună cu prietenii necuvântători.",
             images: ["restaurant4.jpg"],
             cover: "restaurant4.jpg",
+            adress: "Adress: Bucharest, Romania",
+            phone: 'Phone: 0123242424',
+        },
+        {
+          name: "Aroma Oasis",
+          short_description: "Un restaurant confortabil cu o terasă prietenoasă pentru animale de companie.",
+          long_description:
+            "Aroma Oasis este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
+            images: ["restaurant8.jpg"],
+            cover: "restaurant8.jpg",
+            adress: "Adress: Bucuresti, Romania",
+            phone: 'Phone: 0123242424',
+        },
+        {
+          name: "Joyful Dining",
+          short_description: "O experiență rafinată de dining în care animalele de companie sunt binevenite.",
+          long_description:
+            "Joyful Dining oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
+            images: ["restaurant9.jpg"],
+            cover: "restaurant9.jpg",
+            adress: "Adress: Bucuresti, Romania",
+            phone: 'Phone: 0123242424',
+        },
+        {
+          name: "Bean Dream Cafe",
+          short_description: "Cafea excelentă și atmosferă primitoare, cu spațiu dedicat și pentru prietenii cu patru picioare",
+          long_description:
+            "Bean Dream Cafe este o cafenea de specialitate, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
+            images: ["restaurant10.jpg"],
+            cover: "restaurant10.jpg",
+            adress: "Adress: Bucuresti, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       parks: [
@@ -44,6 +82,8 @@ export const data = [
             "Paws and Playgrounds este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
           images: ["parc1.jpg"],
           cover: "parc1.jpg",
+          adress: "Adress: Bucharest, Romania",
+          phone: 'Phone: 0123242424',
         },
         {
           name: "Pawfect Haven Park",
@@ -52,6 +92,8 @@ export const data = [
             "Pawfect Haven Park este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
             images: ["parc2.jpg"],
             cover: "parc2.jpg",
+            adress: "Adress: Bucharest, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Whisker Wonderland",
@@ -60,6 +102,8 @@ export const data = [
             "Whisker Wonderland este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
             images: ["parc3.jpg"],
             cover: "parc3.jpg",
+            adress: "Adress: Bucharest, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       hotels: [
@@ -70,6 +114,8 @@ export const data = [
             "Buddy's Bed & Biscuit oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
           images: ["hotel1.jpg"],
           cover: "hotel1.jpg",
+          adress: "Adress: Bucharest, Romania",
+          phone: 'Phone: 0123242424',
         },
         {
           name: "PawPrint Retreat Bucharest",
@@ -78,6 +124,8 @@ export const data = [
             "PawPrint Retreat Bucharest oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
             images: ["hotel2.jpg"],
             cover: "hotel2.jpg",
+            adress: "Adress: Bucharest, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Pet Paradise Lodge",
@@ -86,6 +134,48 @@ export const data = [
             "Pet Paradise Lodge ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
             images: ["hotel3.jpg"],
             cover: "hotel3.jpg",
+            adress: "Adress: Bucharest, Romania",
+            phone: 'Phone: 0123242424',
+        },
+        {
+          name: "PetStay Inn",
+          short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
+          long_description:
+            "PetStay Inn oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
+            images: ["hotel8.jpg"],
+            cover: "hotel8.jpg",
+            adress: "Adress: Bucuresti, Romania",
+            phone: 'Phone: 0123242424',
+        },
+        {
+          name: "PetPalace Hospitality Bucuresti",
+          short_description: "Un hotel de lux care răsfață atât pe tine, cât și pe animalele tale de companie.",
+          long_description:
+            "PetPalace Hospitality Bucuresti oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
+            images: ["hotel5.jpg"],
+            cover: "hotel5.jpg",
+            adress: "Adress: Bucuresti, Romania",
+            phone: 'Phone: 0123242424',
+        },
+        {
+          name: "TailWag Resort",
+          short_description: "Refugiu prietenos cu servicii premium, bunăstare și distracție pentru tine si animalele tale.",
+          long_description:
+            "TailWag Resort ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
+            images: ["hotel6.jpg"],
+            cover: "hotel6.jpg",
+            adress: "Adress: Bucuresti, Romania",
+            phone: 'Phone: 0123242424',
+        },
+        {
+          name: "Waggin' Welcome Hotel",
+          short_description: "Refugiu primitor, oferind confort atât pentru oaspeți, cât și pentru animalele lor de companie.",
+          long_description:
+            "Waggin' Welcome Hotel Destinație relaxantă unde oamenii și animalele de companie sunt tratați cu grijă și ospitalitate.",
+            images: ["hotel9.jpg"],
+            cover: "hotel9.jpg",
+            adress: "Adress: Bucuresti, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
     },
@@ -101,6 +191,8 @@ export const data = [
             "Aroma Oasis este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
             images: ["restaurant8.jpg"],
             cover: "restaurant8.jpg",
+            adress: "Adress: Sibiu, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Joyful Dining",
@@ -109,6 +201,8 @@ export const data = [
             "Joyful Dining oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
             images: ["restaurant9.jpg"],
             cover: "restaurant9.jpg",
+            adress: "Adress: Sibiu, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Bean Dream Cafe",
@@ -117,6 +211,8 @@ export const data = [
             "Bean Dream Cafe este o cafenea de specialitate, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
             images: ["restaurant10.jpg"],
             cover: "restaurant10.jpg",
+            adress: "Adress: Sibiu, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       parks: [
@@ -127,6 +223,8 @@ export const data = [
             "Pet Pal Pavilion este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
             images: ["parc8.jpg"],
             cover: "parc8.jpg",
+            adress: "Adress: Sibiu, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Purrfect Paws Park",
@@ -135,6 +233,8 @@ export const data = [
             "Purrfect Paws Park este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
             images: ["parc9.jpg"],
             cover: "parc9.jpg",
+            adress: "Adress: Sibiu, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Fido's Freedom Fields",
@@ -143,6 +243,8 @@ export const data = [
             "Fido's Freedom Fields este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
             images: ["parc10.jpg"],
             cover: "parc10.jpg",
+            adress: "Adress: Sibiu, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       hotels: [
@@ -151,8 +253,10 @@ export const data = [
           short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
           long_description:
             "PetStay Inn oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
-            images: ["hotel5.jpg"],
-            cover: "hotel5.jpg",
+            images: ["hotel8.jpg"],
+            cover: "hotel8.jpg",
+            adress: "Adress: Sibiu, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "PetPalace Hospitality Sibiu",
@@ -161,6 +265,8 @@ export const data = [
             "PetPalace Hospitality Sibiu oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
             images: ["hotel5.jpg"],
             cover: "hotel5.jpg",
+            adress: "Adress: Sibiu, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "TailWag Resort",
@@ -169,14 +275,18 @@ export const data = [
             "TailWag Resort ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
             images: ["hotel6.jpg"],
             cover: "hotel6.jpg",
+            adress: "Adress: Sibiu, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Waggin' Welcome Hotel",
           short_description: "Refugiu primitor, oferind confort atât pentru oaspeți, cât și pentru animalele lor de companie.",
           long_description:
             "Waggin' Welcome Hotel Destinație relaxantă unde oamenii și animalele de companie sunt tratați cu grijă și ospitalitate.",
-            images: ["hotel7.jpg"],
-            cover: "hotel7.jpg",
+            images: ["hotel9.jpg"],
+            cover: "hotel9.jpg",
+            adress: "Adress: Sibiu, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
     },
@@ -192,6 +302,8 @@ export const data = [
             "Authentic Flavors este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
             images: ["restaurant5.jpg"],
             cover: "restaurant5.jpg",
+            adress: "Adress: Iasi, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Culinary Bliss",
@@ -200,6 +312,8 @@ export const data = [
             "Culinary Bliss oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
             images: ["restaurant6.jpg"],
             cover: "restaurant6.jpg",
+            adress: "Adress: Iasi, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Cozy Cup Cafe",
@@ -208,6 +322,8 @@ export const data = [
             "Cozy Cup Cafe este o cafenea de specialitate, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
             images: ["restaurant7.jpg"],
             cover: "restaurant7.jpg",
+            adress: "Adress: Iasi, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       parks: [
@@ -218,6 +334,8 @@ export const data = [
             "Pawsome Park este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
             images: ["parc4.jpg"],
             cover: "parc4.jpg",
+            adress: "Adress: Iasi, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Bark 'n Play Haven",
@@ -226,14 +344,18 @@ export const data = [
             "Bark 'n Play Haven este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
             images: ["parc5.jpg"],
             cover: "parc5.jpg",
+            adress: "Adress: Iasi, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Waggin' Trails Park",
           short_description: "Oază verde pentru joacă și relaxare, prietenoasă cu animalele de companie",
           long_description:
             "Waggin' Trails Park este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
-            images: ["parc6.jpg"],
-            cover: "parc6.jpg",
+            images: ["parc10.jpg"],
+            cover: "parc10.jpg",
+            adress: "Adress: Iasi, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Canine Cove",
@@ -242,6 +364,8 @@ export const data = [
             "Canine Cove este o oază prețuită pentru animale de companie și stăpâni, pentru joacă, legături și explorare bucurătoare.",
             images: ["parc7.jpg"],
             cover: "parc7.jpg",
+            adress: "Adress: Iasi, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       hotels: [
@@ -250,16 +374,20 @@ export const data = [
           short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
           long_description:
             "Paws & People Retreat oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
-            images: ["hotel4.jpg"],
-            cover: "hotel4.jpg",
+            images: ["hotel5.jpg"],
+            cover: "hotel5.jpg",
+            adress: "Adress: Iasi, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Companion Comfort Inn Iasi",
           short_description: "Un hotel de lux care răsfață atât pe tine, cât și pe animalele tale de companie.",
           long_description:
             "Companion Comfort Inn Iasi oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
-            images: ["hotel4.jpg"],
-            cover: "hotel4.jpg",
+            images: ["hotel6.jpg"],
+            cover: "hotel6.jpg",
+            adress: "Adress: Iasi, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "PetVenture Lodge",
@@ -268,6 +396,8 @@ export const data = [
             "PetVenture Lodge ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
             images: ["hotel4.jpg"],
             cover: "hotel4.jpg",
+            adress: "Adress: Iasi, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
     },
@@ -283,6 +413,8 @@ export const data = [
             "The Savory Spoon Café este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
             images: ["restaurant1.jpg"],
             cover: "restaurant1.jpg",
+            adress: "Adress: Brasov, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Urban Bites Eatery",
@@ -291,6 +423,8 @@ export const data = [
             "Urban Bites Eatery oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
             images: ["restaurant6.jpg"],
             cover: "restaurant6.jpg",
+            adress: "Adress: Brasov, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Riverside Café & Lounge",
@@ -299,6 +433,8 @@ export const data = [
             "Riverside Café & Lounge este un rafinat sanctuar culinar, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
             images: ["restaurant9.jpg"],
             cover: "restaurant9.jpg",
+            adress: "Adress: Brasov, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Bella Caffeina Bistro",
@@ -307,6 +443,8 @@ export const data = [
             "Bella Caffeina Bistro oferă un loc desăvârșit pentru a savura bucate alese și a petrece momente plăcute pe terasă, împreună cu prietenii necuvântători.",
             images: ["restaurant4.jpg"],
             cover: "restaurant4.jpg",
+            adress: "Adress: Brasov, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       parks: [
@@ -317,6 +455,8 @@ export const data = [
             "Pawsome Park Haven este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
             images: ["parc2.jpg"],
             cover: "parc2.jpg",
+            adress: "Adress: Brasov, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Wag n' Walk Meadows",
@@ -325,6 +465,8 @@ export const data = [
             "Wag n' Walk Meadows este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
             images: ["parc5.jpg"],
             cover: "parc5.jpg",
+            adress: "Adress: Brasov, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Canine Companion Cove",
@@ -333,6 +475,8 @@ export const data = [
             "Canine Companion Cove este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
             images: ["parc9.jpg"],
             cover: "parc9.jpg",
+            adress: "Adress: Brasov, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       hotels: [
@@ -343,6 +487,8 @@ export const data = [
             "PetVenture Suites oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
             images: ["hotel8.jpg"],
             cover: "hotel8.jpg",
+            adress: "Adress: Brasov, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Paws & People Hotel",
@@ -351,6 +497,8 @@ export const data = [
             "Paws & People Hotel oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
             images: ["hotel9.jpg"],
             cover: "hotel9.jpg",
+            adress: "Adress: Brasov, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Furry Companions Inn",
@@ -359,6 +507,8 @@ export const data = [
             "Furry Companions Inn ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
             images: ["hotel10.jpg"],
             cover: "hotel10.jpg",
+            adress: "Adress: Brasov, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
     },
@@ -374,6 +524,8 @@ export const data = [
             "The Hungry Palette Diner este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
             images: ["restaurant2.jpg"],
             cover: "restaurant2.jpg",
+            adress: "Adress: Cluj Napoca, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "SpiceFusion Kitchen",
@@ -382,6 +534,8 @@ export const data = [
             "SpiceFusion Kitchen oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
             images: ["restaurant8.jpg"],
             cover: "restaurant8.jpg",
+            adress: "Adress: Cluj Napoca, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Sweet Serenity Bakery & Café",
@@ -390,6 +544,8 @@ export const data = [
             "Sweet Serenity Bakery & Café este o cafenea de specialitate, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
             images: ["restaurant5.jpg"],
             cover: "restaurant5.jpg",
+            adress: "Adress: Cluj Napoca, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       parks: [
@@ -400,6 +556,8 @@ export const data = [
             "Fido's Funland Retreat este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
             images: ["parc3.jpg"],
             cover: "parc3.jpg",
+            adress: "Adress: Cluj Napoca, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Bark & Bond Trail",
@@ -408,6 +566,8 @@ export const data = [
             "Bark & Bond Trail este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
             images: ["parc6.jpg"],
             cover: "parc6.jpg",
+            adress: "Adress: Cluj Napoca, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "PetPal Playgrounds",
@@ -416,6 +576,8 @@ export const data = [
             "PetPal Playgrounds este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
             images: ["parc8.jpg"],
             cover: "parc8.jpg",
+            adress: "Adress: Cluj Napoca, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "TailWag Trails Park",
@@ -424,6 +586,8 @@ export const data = [
             "TailWag Trails Park este o oază prețuită pentru animale de companie și stăpâni, pentru joacă, legături și explorare bucurătoare.",
             images: ["parc7.jpg"],
             cover: "parc7.jpg",
+            adress: "Adress: Cluj Napoca, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       hotels: [
@@ -434,6 +598,8 @@ export const data = [
             "Woof & Wander Lodge oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
             images: ["hotel2.jpg"],
             cover: "hotel2.jpg",
+            adress: "Adress: Cluj Napoca, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "PetPal Paradise Hotel",
@@ -442,6 +608,8 @@ export const data = [
             "PetPal Paradise Hotel oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
             images: ["hotel5.jpg"],
             cover: "hotel5.jpg",
+            adress: "Adress: Cluj Napoca, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Cozy Canine Haven",
@@ -450,6 +618,8 @@ export const data = [
             "Cozy Canine Haven ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
             images: ["hotel9.jpg"],
             cover: "hotel9.jpg",
+            adress: "Adress: Cluj Napoca, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
     },
@@ -465,6 +635,8 @@ export const data = [
             "The Coffee & Convo Corner este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
             images: ["restaurant3.jpg"],
             cover: "restaurant3.jpg",
+            adress: "Adress: Timisoara, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Urban Flavors Bistro",
@@ -473,6 +645,8 @@ export const data = [
             "Urban Flavors Bistro oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
             images: ["restaurant6.jpg"],
             cover: "restaurant6.jpg",
+            adress: "Adress: Timisoara, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "The Conversational Coffee House",
@@ -481,6 +655,8 @@ export const data = [
             "The Conversational Coffee House este o cafenea de specialitate, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
             images: ["restaurant10.jpg"],
             cover: "restaurant10.jpg",
+            adress: "Adress: Timisoara, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       parks: [
@@ -491,6 +667,8 @@ export const data = [
             "Pawfect Play Park este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
             images: ["parc1.jpg"],
             cover: "parc1.jpg",
+            adress: "Adress: Timisoara, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Fur-Friendly Oasis",
@@ -499,6 +677,8 @@ export const data = [
             "Fur-Friendly Oasis este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
             images: ["parc4.jpg"],
             cover: "parc4.jpg",
+            adress: "Adress: Timisoara, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "PetPals Park",
@@ -507,6 +687,8 @@ export const data = [
             "PetPals Park este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
             images: ["parc10.jpg"],
             cover: "parc10.jpg",
+            adress: "Adress: Timisoara, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
       hotels: [
@@ -517,6 +699,8 @@ export const data = [
             "Cozy Pet Palaces Hotel oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
             images: ["hotel3.jpg"],
             cover: "hotel3.jpg",
+            adress: "Adress: Timisoara, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Pet-Friendly Haven Hotel",
@@ -525,6 +709,8 @@ export const data = [
             "Pet-Friendly Haven Hotel oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
             images: ["hotel6.jpg"],
             cover: "hotel6.jpg",
+            adress: "Adress: Timisoara, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "PetStay Getaway Inn",
@@ -533,6 +719,8 @@ export const data = [
             "PetStay Getaway Inn ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
             images: ["hotel10.jpg"],
             cover: "hotel10.jpg",
+            adress: "Adress: Timisoara, Romania",
+            phone: 'Phone: 0123242424',
         },
         {
           name: "Four-Legged Luxury Lodge",
@@ -541,8 +729,119 @@ export const data = [
             "Four-Legged Luxury Lodge Destinație relaxantă unde oamenii și animalele de companie sunt tratați cu grijă și ospitalitate.",
             images: ["hotel1.jpg"],
             cover: "hotel1.jpg",
+            adress: "Adress: Timisoara, Romania",
+            phone: 'Phone: 0123242424',
         },
       ],
     },
-  }
+      city: "Constanta",
+      places: {
+      restaurants: [
+        {
+          name: "Culinary Haven",
+          short_description: "Un restaurant confortabil cu o terasă prietenoasă pentru animale de companie.",
+          long_description:
+            "Culinary Haven este cunoscut pentru mâncarea delicioasă și atmosfera primitoare pentru animalele de companie.",
+          images: ["restaurant1.jpg"],
+          cover: "restaurant1.jpg",
+          adress: "Adress: Constanta, Romania",
+          phone: 'Phone: 0123242424',
+        },
+        {
+          name: "Spice Fusion",
+          short_description: "O experiență rafinată de dining în care animalele de companie sunt binevenite.",
+          long_description:
+            "Spice Fusion oferă o selecție aleasă de preparate și o zonă de dining prietenoasă pentru animale de companie.",
+            images: ["restaurant2.jpg"],
+            cover: "restaurant2.jpg",
+            adress: "Adress: Constanta, Romania",
+            phone: 'Phone: 0123242424',
+        },
+        {
+          name: "Cafea cu Poveste",
+          short_description: "Gastronomie excelentă și atmosferă primitoare, cu spațiu dedicat și pentru prietenii cu patru picioare",
+          long_description:
+            "Cafea cu Poveste este un rafinat sanctuar culinar, unde oaspeții cu și fără blăniță se bucură de o experiență pet friendly desăvârșită.",
+            images: ["restaurant3.jpg"],
+            cover: "restaurant3.jpg",
+            adress: "Adress: Constanta, Romania",
+            phone: 'Phone: 0123242424',
+        },
+        {
+          name: "Urban Bites",
+          short_description: "Călătorie culinară îmbinată cu relaxare în terasă, deschisă prietenilor blănoși.",
+          long_description:
+            "Urban Bites oferă un loc desăvârșit pentru a savura bucate alese și a petrece momente plăcute pe terasă, împreună cu prietenii necuvântători.",
+            images: ["restaurant4.jpg"],
+            cover: "restaurant4.jpg",
+            adress: "Adress: Constanta, Romania",
+            phone: 'Phone: 0123242424',
+        },
+      ],
+      parks: [
+        {
+          name: "Paws and Playgrounds",
+          short_description: "Un parc spațios cu trasee pentru plimbare atât pentru tine, cât și pentru animalele tale de companie.",
+          long_description:
+            "Paws and Playgrounds este o frumoasă zonă de recreere în care poți să te bucuri de natură alături de prietenii tăi blănoși.",
+          images: ["parc1.jpg"],
+          cover: "parc1.jpg",
+          adress: "Adress: Constanta, Romania",
+          phone: 'Phone: 0123242424',
+        },
+        {
+          name: "Pawfect Haven Park",
+          short_description: "Un parc conceput special pentru ca câinii să se joace și să socializeze.",
+          long_description:
+            "Pawfect Haven Park este un parc pentru câini unde aceștia pot fi lăsați fără lesă, cu mult spațiu pentru a alerga și se juca.",
+            images: ["parc2.jpg"],
+            cover: "parc2.jpg",
+            adress: "Adress: Constanta, Romania",
+            phone: 'Phone: 0123242424',
+        },
+        {
+          name: "Whisker Wonderland",
+          short_description: "Oază verde pentru joacă și relaxare, prietenoasă cu animalele de companie",
+          long_description:
+            "Whisker Wonderland este un paradis natural cu alei și zone de joacă, deschis tuturor, inclusiv prietenilor blănoși.",
+            images: ["parc3.jpg"],
+            cover: "parc3.jpg",
+            adress: "Adress: Constanta, Romania",
+            phone: 'Phone: 0123242424',
+        },
+      ],
+      hotels: [
+        {
+          name: "Buddy's Bed & Biscuit",
+          short_description: "Un hotel fermecător care își primește oaspeții împreună cu animalele lor de companie.",
+          long_description:
+            "Buddy's Bed & Biscuit oferă camere confortabile și cazare prietenoasă cu animalele de companie pentru șederea ta.",
+          images: ["hotel1.jpg"],
+          cover: "hotel1.jpg",
+          adress: "Adress: Constanta, Romania",
+          phone: 'Phone: 0123242424',
+        },
+        {
+          name: "PawPrint Retreat Constanta",
+          short_description: "Un hotel de lux care răsfață atât pe tine, cât și pe animalele tale de companie.",
+          long_description:
+            "PawPrint Retreat Constanta oferă facilități și servicii de primă clasă atât pentru tine, cât și pentru animalele tale de companie iubite.",
+            images: ["hotel2.jpg"],
+            cover: "hotel2.jpg",
+            adress: "Adress: Constanta, Romania",
+            phone: 'Phone: 0123242424',
+        },
+        {
+          name: "Pet Paradise Lodge",
+          short_description: "Refugiu prietenos cu servicii premium, bunăstare și distracție pentru tine si animalele tale.",
+          long_description:
+            "Pet Paradise Lodge ofera o experiență primitoare de cazare pentru călători și animalele lor iubite într-un mediu pet friendly, unde se bucură de confort și facilități deosebite",
+            images: ["hotel3.jpg"],
+            cover: "hotel3.jpg",
+            adress: "Adress: Constanta, Romania",
+            phone: 'Phone: 0123242424',
+        },
+      ],
+    },
+  },
 ];

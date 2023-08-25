@@ -33,10 +33,10 @@ export function Header({ setSelectedCity }) {
                     backgroundImage: `url(${backgroundImage})`
                 }} className='header-container'>
                 <div className='first-title'>
-                    Discover and enjoy your new places and experiences
+                Discover and enjoy your new places with your pet
                 </div>
                 <div className='second-title'>
-                    Explore destination, places and unforgettable experiences
+                Prepare for adventure and unique experiences
                 </div>
                 <div className='search'>
                     <ReactSearchAutocomplete

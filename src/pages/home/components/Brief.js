@@ -5,18 +5,18 @@ export function Brief() {
 
     const data = [
         {
-            title: "Restaurante pet friendly",
-            description: "asda sdas da dasd a d adasdasasd asd  ada d as d a ad asd  ad asdasda das d as dadas d as dasdas da  da s d a d as d a d a d asd a sdasdada dad",
-            image: require('../../../assets/img/hotel2.jpg')
+            title: "Pet-friendly Hotels",
+            description: "Explore lodging options that warmly welcome both you and your beloved pet. Experience the convenience and hospitality of hotels that are pet-friendly, ensuring a delightful stay for both you and your furry companion",
+            image: require('../../../assets/img/hotel3.jpg')
         },
         {
-            title: "Hoteluri pet friendly",
-            description: "asda sdas da dasd a d adasdasasd asd  ada d as d a ad asd  ad asdasda das d as dadas d as dasdas da  da s d a d as d a d a d asd a sdasdada dad",
+            title: "Pet-friendly Restaurants",
+            description: "Discover dining spots where you and your furry friend are both welcome. Enjoy the company of your pet while indulging in delicious meals and drinks at pet-friendly restaurants, cafes, and outdoor terraces",
             image: require("../../../assets/img/restaurant2.jpg")
         },
         {
-            title: "Parcuri pet friendly",
-            description: "asda sdas da dasd a d adasdasasd asd  ada d as d a ad asd  ad asdasda das d as dadas d as dasdas da  da s d a d as d a d a d asd a sdasdada dad",
+            title: "Pet-friendly Parks",
+            description: "Explore pet-friendly parks where you and your four-legged companion can enjoy the outdoors together. These parks provide a safe and welcoming environment for you and your pet to play, relax, and bond amidst nature",
             image: require("../../../assets/img/parc2.jpg")
         }
       ];

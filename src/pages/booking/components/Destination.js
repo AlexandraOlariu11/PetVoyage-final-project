@@ -14,11 +14,18 @@ export function Destination({ destination }) {
             <div className='name'>
                 {destination.name}
             </div>
+
             <div className='short-description'>
                 {destination.short_description}
             </div>
             <div className='long-description'>
                 {destination.long_description}
+            </div>
+            <div className='adress'>
+                {destination.adress}
+            </div>
+            <div className='phone'>
+                {destination.phone}
             </div>
         </div>
       </div>

@@ -18,10 +18,10 @@ export function PopularDestinations() {
         <>
             <div className='popular-destinations-container'>
                 <div className='title'>
-                    PetVoyage popular destinations
+                Popular PetVoyage Destinations
                 </div>
                 <div className='sub-title'>
-                    See the beauty of the world easily and safelu with us
+                Discover new pet-friendly locations in the cities you explore
                 </div>
                 <div className='carousel'>
                     <Carousel useKeyboardArrows={true}>

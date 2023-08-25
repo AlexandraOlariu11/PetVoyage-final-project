@@ -7,10 +7,10 @@ export function Help() {
             <div className='help-container'>
                 <div className='top'>
                     <div className='title'>
-                        How can we help your journey
+                    How can we help your journey
                     </div>
                     <div className='sub-title'>
-                        Our services which are very comfortable and can make you and your pet happy
+                    With PetVoyage, you can discover the most beautiful locations for you and your pet friend
                     </div>
                 </div>
                 <div className='bottom'>
@@ -22,7 +22,7 @@ export function Help() {
                             Find your destination
                         </div>
                         <div className='item-description'>
-                            Find your travel destination, we have covered all regions in the world
+                            Find your travel destination. Choose the city you want to visit with your furry friend
                         </div>
                     </div>
                     <div className='item'>
@@ -33,7 +33,7 @@ export function Help() {
                             Choose your favourite pet-friendly location
                         </div>
                         <div className='item-description'>
-                            After finding the trip you want to go to, you can immediately order the ticket
+                        After you've found the travel destination, check the list of available pet-friendly locations in the selected city
                         </div>
                     </div>
                     <div className='item'>
@@ -44,7 +44,7 @@ export function Help() {
                             Prepare your pet for travel
                         </div>
                         <div className='item-description'>
-                            After you pay you can immediately enjoy the trip to destination
+                        Pack your bags. Get ready for unique experiences with your best friend
                         </div>
                     </div>
                 </div>

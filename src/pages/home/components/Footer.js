@@ -1,5 +1,12 @@
 import React from 'react';
 import './../../../assets/css/home/Footer.css'
+import { Link } from 'react-router-dom'; 
+import styled from 'styled-components';
+
+
+const FooterItemStyles = styled.div`
+text-decoration: none;
+`;
 
 export function Footer() {
     return (
@@ -11,7 +18,7 @@ export function Footer() {
                             PetVoyage
                         </div>
                         <div className='description'>
-                            Enjoy your traveling with us
+                        We're here to make your journey with your pet easier and more enjoyable.
                         </div>
                     </div>
                     <div className='right'>
@@ -19,25 +26,14 @@ export function Footer() {
                             <div className='item-title'>
                                 Menu
                             </div>
+                            <FooterItemStyles>
+                            <Link to='/'>Home</Link>
+                            </FooterItemStyles>
+                            <FooterItemStyles>
+                            <Link to='/about'>About us</Link>
+                            </FooterItemStyles>
                             <div className='item'>
-                                Home
-                            </div>
-                            <div className='item'>
-                                Destination
-                            </div>
-                            <div className='item'>
-                                About us
-                            </div>
-                        </div>
-                        <div className='col-item'>
-                            <div className='item-title'>
-                                Booking Plan
-                            </div>
-                            <div className='item'>
-                                Personal Trip
-                            </div>
-                            <div className='item'>
-                                Group Trip
+                            <Link to='/contact'>Contact</Link>
                             </div>
                         </div>
                         <div className='col-item'>
@@ -45,16 +41,19 @@ export function Footer() {
                                 Further information
                             </div>
                             <div className='item'>
-                                Terms & conditions
+                                Terms & Conditions
                             </div>
                             <div className='item'>
-                                Privacy policy
+                                Privacy Policy
+                            </div>
+                            <div className='item'>
+                            Cookie Policy
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='rights'>
-                    @2023 Alexandra Olariu. All rights reserved
+                    @2023 Alexandra Olariu. All rights reserved.
                 </div>
             </div>
         </>

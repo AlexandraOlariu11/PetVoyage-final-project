@@ -9,7 +9,7 @@ export default function NavbarContainer () {
             </Link>
             <ul>
                 <CustomLink to="/home">Home</CustomLink>
-                <CustomLink to="/about">Despre Noi</CustomLink>
+                <CustomLink to="/about">About Us</CustomLink>
                 <CustomLink to="/contact">Contact</CustomLink>
             </ul>
         </nav>
