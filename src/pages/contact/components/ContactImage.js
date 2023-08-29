@@ -2,7 +2,7 @@ import React from 'react'
 import './../../../assets/css/contact/ContactImage.css'
 
 
-export default function Map() {
+export default function ContactImage() {
   return (
     <div className="ImageStyles">
       <div className="container">

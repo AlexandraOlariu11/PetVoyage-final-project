@@ -10,3 +10,12 @@ h1 {
      margin-top: 1.5rem; 
      padding-bottom: 5rem;
 }
+
+@media only screen and (max-width: 768px){
+    .TitleComponentStyle{
+        font-size: 1.2rem;
+    }
+    h1 {
+        font-size: 3.6rem;
+    }
+}

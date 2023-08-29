@@ -1,12 +1,7 @@
 import React from 'react';
 import './../../../assets/css/home/Footer.css'
 import { Link } from 'react-router-dom'; 
-import styled from 'styled-components';
 
-
-const FooterItemStyles = styled.div`
-text-decoration: none;
-`;
 
 export function Footer() {
     return (
@@ -26,12 +21,12 @@ export function Footer() {
                             <div className='item-title'>
                                 Menu
                             </div>
-                            <FooterItemStyles>
+                            <div className="item">
                             <Link to='/'>Home</Link>
-                            </FooterItemStyles>
-                            <FooterItemStyles>
+                            </div>
+                            <div className="item">
                             <Link to='/about'>About us</Link>
-                            </FooterItemStyles>
+                            </div>
                             <div className='item'>
                             <Link to='/contact'>Contact</Link>
                             </div>

@@ -6,6 +6,10 @@
     border:1px solid #ddd;
 }
 
+.footerItemStyle{
+    text-decoration: none;   
+}
+
 .main {
     flex:1;
 
@@ -51,6 +55,8 @@
 
 .main > .right > .col-item > .item {
     padding-top:10px;
+    text-decoration: none;
+    color: #000;
 }
 
 .rights {
@@ -60,3 +66,4 @@
     display: flex;
     padding-left:40px;
 }
+
