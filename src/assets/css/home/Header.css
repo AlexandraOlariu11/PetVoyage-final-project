@@ -12,12 +12,14 @@
     padding-top:50px;
     font-size:45px;
     color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-weight: bold;
 }
 
 .second-title {
     font-size:20px;
     color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .search {

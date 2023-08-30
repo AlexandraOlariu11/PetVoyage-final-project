@@ -7,7 +7,7 @@ import './../../../assets/css/container.css'
 import ContactForm from './ContactForm';
 
 
-export default function ContactSection() {
+export function ContactSection() {
     return (
         <div className="ContactSectionStyle">
             <div className="containerContact">
@@ -25,4 +25,6 @@ export default function ContactSection() {
             </div>
         </div>
     );
-}
+};
+
+export default ContactSection;

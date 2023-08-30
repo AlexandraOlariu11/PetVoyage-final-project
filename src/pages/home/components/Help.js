@@ -1,5 +1,9 @@
 import React from 'react';
 import './../../../assets/css/home/Help.css'
+import icon4 from './../../../assets/img/icon4.png';
+import icon2 from './../../../assets/img/icon2.png';
+import icon5 from './../../../assets/img/icon5.png';
+
 
 export function Help() {
     return (
@@ -16,7 +20,7 @@ export function Help() {
                 <div className='bottom'>
                     <div className='item'>
                         <div className='item-icon'>
-
+                        <img src={icon4} alt="plane icon" />
                         </div>
                         <div className='item-title'>
                             Find your destination
@@ -27,7 +31,7 @@ export function Help() {
                     </div>
                     <div className='item'>
                         <div className='item-icon'>
-
+                        <img src={icon2} alt="pin icon" />
                         </div>
                         <div className='item-title'>
                             Choose your favourite pet-friendly location
@@ -38,7 +42,7 @@ export function Help() {
                     </div>
                     <div className='item'>
                         <div className='item-icon'>
-
+                        <img src={icon5} alt="pet icon" />
                         </div>
                         <div className='item-title'>
                             Prepare your pet for travel

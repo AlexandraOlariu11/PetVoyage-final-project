@@ -1,0 +1,47 @@
+.AboutImgStyles{
+    background-image: url('./../../img/catel2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+    .container {
+        position: relative;
+        min-height: 250px;
+    }
+
+    
+    .AboutImgStyles h1{
+        color: white;
+        font-size: 3rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        padding: 50px;
+        text-align: left;
+        margin: 0; 
+        position: absolute; 
+        bottom: 200px; 
+        left: 30%; 
+        transform: translateX(-50%);
+    }
+
+    .AboutImgStyles::before {
+        content: "";
+        display: block;
+        padding-top: 75%; 
+        background-image: url('./../../img/catel2.jpg');
+        background-size: 100% auto; 
+        transform: scaleY(1.2); 
+    }
+
+  
+
+    @media only screen and (max-width: 768px) {
+        .AboutImgStyles {
+            text-align: center;
+        }
+    }

@@ -5,7 +5,7 @@ export default function NavbarContainer () {
     return (
         <nav className="nav">
             <Link to="/home" className="title">
-                <img className="logo" src={require('../assets/img/logo.png')} alt="Logo PetVoyage" />    
+                <img className="logo" src={require('../assets/img/logo1.png')} alt="Logo PetVoyage" />    
             </Link>
             <ul>
                 <CustomLink to="/home">Home</CustomLink>

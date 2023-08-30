@@ -1,6 +1,6 @@
 .AboutSectionStyle{
     background-color: #f5f4ed;
-    padding: 10rem 0;
+    padding: 2rem 0;
 
 .container{
     display: flex;
@@ -16,16 +16,15 @@
     width: 420px; 
     height: auto; 
 }
-.h1style{
-    text-align: center;
-}
 .h2style{
-  max-width: 500px;
-  margin: 0 auto;
-  font-size: 3.1rem;
-  line-height: 1.3em;
-  color:black;
+    font-family: 'Arial';
+    font-weight: bold;
+    color: #2596be;
+    font-size: 2rem;
+    margin-top: 0;
+    padding-bottom: 5rem;
 }
+
 .aboutSection__buttons{
 display: flex;
 align-items: center;
@@ -54,9 +53,6 @@ margin-top: 2rem;
     .aboutSection__right {
         margin-top: 3rem;
     }
-    .h1style {
-        text-align: center;
-    }
     .aboutSection__buttons{
         flex-direction: column;
         gap: 0;
@@ -71,4 +67,3 @@ margin-top: 2rem;
 
 
 
-/*nu am aplicat inca stilul pe h2*/

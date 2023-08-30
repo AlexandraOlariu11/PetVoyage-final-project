@@ -46,8 +46,17 @@
     height:60px;
     border-radius: 30px;
     background-color: white;
-}
 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.item-icon img {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 30px;
+  }
+  
 .bottom > .item > .item-title {
     font-weight:bold;
     padding-top:10px;

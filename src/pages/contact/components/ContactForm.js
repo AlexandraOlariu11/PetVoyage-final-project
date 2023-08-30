@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import './../../../assets/css/contact/FormStyles.css'
+import Alert from './Alert.js';
 
-export default function ContactForm() {
+export function ContactForm() {
     const [name, setName] = useState ('');
     const [email, setEmail] = useState ('');
     const [message, setMessage] = useState ('');
@@ -26,7 +27,9 @@ export default function ContactForm() {
             />
             </label>
         </div>
-        <button className='button' type="submit">Trimite</button>
+        <Alert></Alert>
     </div>
   )
 }
+
+export default ContactForm;

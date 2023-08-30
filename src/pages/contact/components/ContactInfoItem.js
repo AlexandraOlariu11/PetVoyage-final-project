@@ -4,7 +4,7 @@ import './../../../assets/css/contact/ItemStyles.css'
 import PText from '../../../components/PText';
 
 
-export default function ContactInfoItem({
+export function ContactInfoItem({
     icon = <MdPlace />,
     text= 'this is an info',
 }) {
@@ -16,6 +16,8 @@ export default function ContactInfoItem({
       </div>
     </div>
   );
-}
+};
+
+export default ContactInfoItem;
 
 
