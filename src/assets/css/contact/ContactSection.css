@@ -3,11 +3,12 @@
 }
 
 .contactSection{
-display: flex;
-gap: 5rem;
-margin-top: 7rem;
-justify-content: space-between;
-position: relative;
+   display: flex;
+   /*flex-direction: row;*/
+   gap: 5rem;
+   margin-top: 7rem;
+   justify-content: space-between;
+   position: relative;
 }
 
 .contactSection::after {
@@ -22,23 +23,25 @@ position: relative;
 }
 
 .left{
-    flex: 1;
+    /*flex: 1;*/
     width: 100%;
-    max-width: 500px;
+    max-width: 500px; 
+    /*padding: 1rem;*/
 }
 
 .right {
-    max-width: 500px;
-    width: 100%;
-    border-radius: 12px;
+   /*flex: 1;*/
+   max-width: 500px;
+   width: 100%;
+   border-radius: 12px;
 }
 
 
 @media only screen and (max-width: 768px) {
     .contactSection{
-        flex-direction:column;
+        flex-direction: column;
     }
-    .contactSection::after{
+    .contactSection::after {
         display: none;
     }
     .left, 

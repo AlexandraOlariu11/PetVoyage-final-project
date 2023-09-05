@@ -1,10 +1,10 @@
 .p-text{
   max-width: 500px;
-  margin: 1 auto;
   font-size: 1.1rem;
   line-height: 1.3em;
   margin-top: 1rem;
-  margin-left: 0rem;
+  margin-left: 5rem;
+  text-align: justify;
   @media screen and (max-width: 768px){
     font-size: 1.4rem;
   }

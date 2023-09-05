@@ -33,7 +33,7 @@ export function Header({ setSelectedCity }) {
                     backgroundImage: `url(${backgroundImage})`
                 }} className='header-container'>
                 <div className='first-title'>
-                Discover and enjoy your new places with your pet
+                Discover and enjoy new places with your pet
                 </div>
                 <div className='second-title'>
                 Prepare for adventure and unique experiences

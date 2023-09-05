@@ -10,7 +10,7 @@ import ContactForm from './ContactForm';
 export function ContactSection() {
     return (
         <div className="ContactSectionStyle">
-            <div className="containerContact">
+            <div className="container">
                 <TitleComponent heading="Contact PetVoyage"/>
                 <div className="contactSection">
                     <div className="left">

@@ -12,7 +12,7 @@ function App() {
   return (
   <>
     <NavbarContainer/>
-    <div className="container">
+    <div >
     <Routes>
       <Route path="/" element={<HomePage/>} />
       <Route path="/home" element={<HomePage/>} />

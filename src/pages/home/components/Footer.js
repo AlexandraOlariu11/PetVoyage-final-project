@@ -1,7 +1,5 @@
 import React from 'react';
 import './../../../assets/css/home/Footer.css'
-import { Link } from 'react-router-dom'; 
-
 
 export function Footer() {
     return (
@@ -22,13 +20,13 @@ export function Footer() {
                                 Menu
                             </div>
                             <div className="item">
-                            <Link to='/'>Home</Link>
+                            <a href='/' class="aStyle">Home</a>
                             </div>
                             <div className="item">
-                            <Link to='/about'>About us</Link>
+                            <a href='/about' class="aStyle">About us</a>
                             </div>
                             <div className='item'>
-                            <Link to='/contact'>Contact</Link>
+                            <a href='/contact' class="aStyle">Contact</a>
                             </div>
                         </div>
                         <div className='col-item'>

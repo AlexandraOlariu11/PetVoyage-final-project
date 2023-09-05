@@ -4,6 +4,8 @@
     padding:20px;
     background-color: #eee;
     border-bottom: 1px solid #ccc;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .destination-container > .cover {

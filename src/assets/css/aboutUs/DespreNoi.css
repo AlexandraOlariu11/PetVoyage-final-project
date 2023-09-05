@@ -1,6 +1,8 @@
 .AboutSectionStyle{
     background-color: #f5f4ed;
     padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
 
 .container{
     display: flex;
@@ -15,14 +17,21 @@
 .AboutImg {
     width: 420px; 
     height: auto; 
+    margin-left: 6rem;
+    @media only screen {
+        max-width: 100%;
+        height: auto;
+    }
 }
 .h2style{
     font-family: 'Arial';
     font-weight: bold;
     color: #2596be;
     font-size: 2rem;
-    margin-top: 0;
-    padding-bottom: 5rem;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .aboutSection__buttons{

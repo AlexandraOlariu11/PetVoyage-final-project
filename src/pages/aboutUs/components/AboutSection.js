@@ -3,6 +3,7 @@ import './../../../assets/css/aboutUs/DespreNoi.css';
 import PText from '../../../components/PText';
 import AboutImg from './../../../assets/img/banner2.jpg';
 import Button from '../../../components/Button';
+import './../../../assets/css/Button.css';
 
 export function AboutSection() {
   return (
@@ -18,8 +19,12 @@ export function AboutSection() {
 
                <PText>Whether you're seeking a charming pet-welcoming hotel, a cozy cafe where your pup is welcomed with a smile, or a serene park to explore together, PetVoyage is your trusted guide to creating unforgettable moments with your pets. Join us on this exciting journey and let's embark on pet-friendly escapades together!"</PText>
                <div className="aboutSection__buttons">
-             <Button btnLink="/home" btnText="Destinations"/>
-             <Button btnLink="/contact" btnText="Contact" outline/>
+             <div class="ButtonStyle">
+              <a class="Button" href="/home">Destinations</a>
+              </div>
+             <div class="ButtonStyle"> 
+             <a class="ButtonRight" href="/contact">Contact</a>
+             </div>
           </div>
           </div>
           <div className="aboutSection__right">

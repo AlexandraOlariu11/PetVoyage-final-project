@@ -2,6 +2,8 @@
     background-color: #f5f4ed;
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .explore-container > .title {

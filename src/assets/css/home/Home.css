@@ -1,6 +1,6 @@
 .home-container {
-    max-width:1024px;
     min-height:800px;
+    max-width: 100% !important;
     margin: 0 auto !important;
     padding: 0 !important;
   

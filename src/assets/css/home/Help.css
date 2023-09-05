@@ -1,5 +1,7 @@
 .help-container {
     display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
     flex-direction: column;
     background-color: #f5f4ed;
     border:1px solid #ddd;
