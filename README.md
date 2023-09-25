@@ -1,3 +1,17 @@
+For this project, I chose to focus on the topic of pet-friendly travel. Recognizing the complexities of planning trips with pets due to restrictions at certain hotels, restaurants, and cafes, I saw an opportunity to streamline this process.
+
+My project is a responsive web application built using React.js, with CSS and Bootstrap for styling. It caters to individuals who travel with their pets, offering a convenient solution to locate pet-friendly accommodations, dining establishments, and parks in the city they are visiting. This enables travelers with pets to plan their trips more efficiently.
+
+The website comprises 3 pages. On the site's homepage, multiple sections containing information and images are available. In the header section, there is a search bar that allows users to search for the city they wish to travel to.
+
+If users search for, let's say, Bucharest, the list of pet-friendly hotels, restaurants, and parks in Bucharest is displayed.I have also included a filtering section on the page, which filters the data based on the type of location. For each location, I have provided a brief description, address, and phone number.
+
+Furthermore, the website includes an "About Us" page where the backstory of the application is presented, and a "Contact Page" that features a contact form.
+
+At the moment, the website covers seven cities in Romania: Bucharest, Iasi, Sibiu, Brasov, Cluj, Timisoara, and Constanta and the data is currently generated from a mock dataset. However, my goal is to enhance the project by integrating real data, as I believe it would provide immense value to fellow animal enthusiasts.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
