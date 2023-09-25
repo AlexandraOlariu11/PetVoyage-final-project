@@ -1,4 +1,4 @@
-For this project, I chose to focus on the topic of pet-friendly travel. Recognizing the complexities of planning trips with pets due to restrictions at certain hotels, restaurants, and cafes, I saw an opportunity to streamline this process.
+Recognizing the complexities of planning trips with pets due to restrictions at certain hotels, restaurants, and cafes, I saw an opportunity to streamline this process; therefore, I chose to focus on making travel easier for pet lovers.
 
 My project is a responsive web application built using React.js, with CSS and Bootstrap for styling. It caters to individuals who travel with their pets, offering a convenient solution to locate pet-friendly accommodations, dining establishments, and parks in the city they are visiting. This enables travelers with pets to plan their trips more efficiently.
 
